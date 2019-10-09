@@ -1,9 +1,5 @@
 x=1
-z=0
-y=0
-a=0
-b=0
-j=0
+z=y=a=b=j=0
 
 while z < 80
   a=x
