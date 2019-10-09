@@ -5,13 +5,13 @@ while z < 80
   a=x
   y=0
   j=0
-  while(a > 0)
+  while a > 0
     y = y * 10
     y = y + a % 10
     a = a / 10
   end
   b = x * x
-  while(b > 0) 
+  while b > 0
     j = j * 10
     j = j + b % 10
     b = b / 10
