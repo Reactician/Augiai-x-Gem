@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 num = []
 
 while num.length < 3

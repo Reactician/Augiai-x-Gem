@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 puts 'iveskite pirma krastine:'
 x = gets.to_f
 puts 'iveskite antra krastine:'
@@ -6,8 +8,8 @@ puts 'iveskite trecia krastine:'
 z = gets.to_f
 
 if x + y > z && x + z > y && y + z > x
-  f = (x + y + z)/2
-  s = Math.sqrt(f*(f-x)*(f-y)*(f-z))
+  f = (x + y + z) / 2
+  s = Math.sqrt(f * (f - x) * (f - y) * (f - z))
   puts 'trikampi galima sudaryti'
   puts "plotas: #{s.round(2)}"
   if x == y && y == z
